@@ -3,7 +3,7 @@ import React, { useState } from "react"
 
 const url = 'http://localhost:6001/listings'
 
-function NewListings({ submitForm }) {
+function NewListings() {
     const [formData, setFormData] = useState({
         description: "",
         image: "",

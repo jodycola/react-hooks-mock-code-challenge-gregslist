@@ -12,7 +12,7 @@ function App() {
       search={search}
       setSearch={setSearch}
       />
-      <NewListings submitForm={submitForm} />
+      <NewListings />
       <ListingsContainer
       search={search}
        />
