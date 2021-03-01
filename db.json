@@ -41,6 +41,18 @@
       "description": "Treadmill Parts For Free",
       "image": "./images/treadmill.jpg",
       "location": "East Flatbush"
+    },
+    {
+      "description": "Motorcycle",
+      "image": "https://images.craigslist.org/00p0p_inzh4X9l8dMz_0CI0t2_300x300.jpg",
+      "location": "New Brunswick",
+      "id": 8
+    },
+    {
+      "description": "desktop holder",
+      "image": "https://images.craigslist.org/00O0O_kIkLdM21uWwz_0CI0t2_300x300.jpg",
+      "location": "Jersey City",
+      "id": 9
     }
   ]
 }

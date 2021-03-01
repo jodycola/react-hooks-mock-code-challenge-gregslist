@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./Header";
 import ListingsContainer from "./ListingsContainer";
+import NewListings from "./NewListings"
 
 function App() {
+  const [search, setSearch] = useState("")
+
   return (
     <div className="app">
-      <Header />
-      <ListingsContainer />
+      <Header 
+      search={search}
+      setSearch={setSearch}
+      />
+      <NewListings submitForm={submitForm} />
+      <ListingsContainer
+      search={search}
+       />
     </div>
   );
 }
